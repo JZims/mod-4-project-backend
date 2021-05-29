@@ -169,7 +169,7 @@ DEPENDENCIES
   faker (~> 1.9)
   jwt (~> 2.1)
   listen (~> 3.3)
-  pg (~> 1.1)
+  pg
   puma (~> 5.0)
   rack-cors
   rails (~> 6.1.3, >= 6.1.3.2)
