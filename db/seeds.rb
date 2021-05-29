@@ -22,7 +22,7 @@ Inventory.create(user_id: 2, item_id: )
 Inventory.create(user_id: 3, item_id: )
 
 Item.create(name: "Furby", swag_points: 30)
-Item.create(name: "Gushers", swag_points:: 15)
+Item.create(name: "Gushers", swag_points: 15)
 Item.create(name: "Dunkaroos", swag_points: 20)
 Item.create(name: "Fruit by the Foot", swag_points: 10)
 Item.create(name: "Ring Pop", swag_points: 10)
