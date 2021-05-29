@@ -4,6 +4,7 @@ class CreatePets < ActiveRecord::Migration[6.1]
       t.string :name
       t.integer :swag_total
       t.integer :user_id
+      t.string :image
 
       t.timestamps
     end

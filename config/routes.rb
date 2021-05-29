@@ -10,9 +10,10 @@ Rails.application.routes.draw do
     end
   end
 
-  resources :items
+  resources :items, only:[:index, :show]
   resources :inventories
-  resources :pets
+  resources :pets, only:[:index, :show]
+  resources :users, only: [:index, :show]
   
 end
 
