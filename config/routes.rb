@@ -9,5 +9,10 @@ Rails.application.routes.draw do
       get '/profile', to: 'users#profile'
     end
   end
+
+  resources :items
+  resources :inventories
+  resources :pets
+  
 end
 
