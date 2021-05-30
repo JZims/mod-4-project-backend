@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  # resources :user, only: [:index, :show]
+#Comment lines 5-11 and uncomment line 16 for testing
 
   namespace :api do
     namespace :v1 do
@@ -13,7 +13,7 @@ Rails.application.routes.draw do
   resources :items, only:[:index, :show]
   resources :inventories
   resources :pets, only:[:index, :show]
-  resources :users, only: [:index, :show]
+  # resources :users, only: [:index, :show]
   
 end
 

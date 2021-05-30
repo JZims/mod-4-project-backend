@@ -5,7 +5,6 @@ class CreateItems < ActiveRecord::Migration[6.1]
       t.integer :swag_points
       t.string :image
 
-      t.timestamps
     end
   end
 end

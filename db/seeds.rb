@@ -9,10 +9,7 @@ User.create(username: "Daria Morgendorffer", currency: 1000, bio: "Sarcastic ner
 User.create(username: "Tommy Pickles", currency: 1000, bio: "baby", password: "chucky", image: "https://ibb.co/y0wxg2B")
 User.create(username: "Gerald Johanssen", currency: 1000, bio: "Arnold's best friend", password: "heyarnold", image: "https://ibb.co/zRBt8NC")
 
-Inventory.create(user_id: 4, item_id: 1)
-Inventory.create(user_id: 1, item_id: 2)
-Inventory.create(user_id: 2, item_id: 3)
-Inventory.create(user_id: 3, item_id: 4)
+
 
 Item.create(name: "Furby", swag_points: 30, image: "https://ibb.co/qrym3sP")
 Item.create(name: "Gushers", swag_points: 15, image: "https://ibb.co/hWmzZtZ")
@@ -34,6 +31,11 @@ Item.create(name: "Bubble Tape", swag_points: 10, image: "https://ibb.co/3YRB72N
 Item.create(name: "Tubthumping Single by: Chumbawamba", swag_points: 20, image: "https://ibb.co/V0G9DX3")
 Item.create(name: "Yak-Bak", swag_points: 10, image: "https://ibb.co/bFRcvPC")
 Item.create(name: "Gak", swag_points: 35, image: "https://ibb.co/bPswywK")
+
+Inventory.create(user_id: User.all.sample.id, item_id: Item.all.sample.id)
+Inventory.create(user_id: User.all.sample.id, item_id: Item.all.sample.id)
+Inventory.create(user_id: User.all.sample.id, item_id: Item.all.sample.id)
+Inventory.create(user_id: User.all.sample.id, item_id: Item.all.sample.id)
 
 Pet.create(name: "Cow", swag_total: 100, user_id: User.all.sample.id, image: "https://ibb.co/j8LVn7W")
 Pet.create(name: "Ren", swag_total: 100, user_id: User.all.sample.id, image: "https://ibb.co/XjKjpxm")
