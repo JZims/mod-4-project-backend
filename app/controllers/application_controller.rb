@@ -1,5 +1,6 @@
 class ApplicationController < ActionController::API
 
+#Comment out line 4 to test
 before_action :authorized
 
 
