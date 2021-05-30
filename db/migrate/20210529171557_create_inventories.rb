@@ -4,7 +4,6 @@ class CreateInventories < ActiveRecord::Migration[6.1]
       t.integer :user_id
       t.integer :item_id
 
-      t.timestamps
     end
   end
 end
