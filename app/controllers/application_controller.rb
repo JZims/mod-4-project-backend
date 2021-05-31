@@ -1,5 +1,6 @@
 class ApplicationController < ActionController::API
 
+#Comment out line 4 to test
 before_action :authorized
 
 
@@ -34,6 +35,7 @@ def logged_in?
 end
 
 def authorized
+    
     render json: { message: 'Please log in' }, status: :unauthorized unless logged_in?
 end
 
