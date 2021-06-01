@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :adoptions
 #Comment lines 5-11 and uncomment line 16 for testing
 
   namespace :api do
@@ -13,7 +14,7 @@ Rails.application.routes.draw do
   resources :items, only:[:index, :show]
   resources :inventories
   resources :pets, only:[:index, :show]
-  # resources :users, only: [:index, :show]
+  resources :adoptions, only: [:create, :update]
   
 end
 
