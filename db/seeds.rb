@@ -51,3 +51,11 @@ Pet.create(name: "Porkchop", swag_total: 100, user_id: User.all.sample.id, image
 Pet.create(name: "Reptar", swag_total: 100, user_id: User.all.sample.id, image: "https://i.ibb.co/7Kg5cpS/reptar.jpg")
 Pet.create(name: "Lickitung", swag_total: 100, user_id: User.all.sample.id, image: "https://i.ibb.co/Tgghbq0/lickitung.jpg")
 Pet.create(name: "Alpha", swag_total: 100, user_id: User.all.sample.id, image: "https://i.ibb.co/0fPPTz2/alpha.jpg") 
+
+Pet.create(name: "Mojo Jojo", swag_total: 100, user_id: nil, image: "https://i.ibb.co/MRSKprn/416p8-Xufc-KL-AC-SY355.jpg")
+Pet.create(name: "Squidward", swag_total: 100, user_id: nil, image: "https://i.ibb.co/1ZdKCnp/Squidward.png")
+Pet.create(name: "Daggett Beaver", swag_total: 100, user_id: nil, image: "https://i.ibb.co/Yfgwvtn/DAGG-large.jpg")
+Pet.create(name: "Krumm", swag_total: 100, user_id: nil, image: "https://i.ibb.co/3TXFvkK/b023322437030cc586f6d0ad358c0489.jpg")
+Pet.create(name: "Dot Warner", swag_total: 100, user_id: nil, image: "https://i.ibb.co/rcdc88L/l0fj-C6-GN-400x400.jpg")
+Pet.create(name: "Pegasus", swag_total: 100, user_id: nil, image: "https://i.ibb.co/jg236gV/download.jpg")
+Pet.create(name: "Babyface", swag_total: 100, user_id: nil, image: "https://i.ibb.co/92tPsyq/hfttqcli76z31.jpg")
