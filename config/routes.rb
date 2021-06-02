@@ -13,8 +13,8 @@ Rails.application.routes.draw do
 
   resources :items, only:[:index, :show]
   resources :inventories
-  resources :pets, only:[:index, :show]
-  resources :adoptions, only: [:create, :update]
+  resources :pets, only:[:index, :show, :destroy]
+  resources :adoptions, only: [:index, :show, :create, :update]
   
 end
 
