@@ -1,4 +1,9 @@
 class AdoptionsController < ApplicationController
+    def index 
+        adoptions = Pet.all
+        render json: adoptions
+    end
+
     def create
         adoption = Adoption.find(params[:id])
 
@@ -19,6 +24,6 @@ class AdoptionsController < ApplicationController
 
     private
     def adoption_params
-        params.require(:adoption).permit(:)
+        params.require(:adoption).permit(:user_id, :pet_id)
     end
 end
