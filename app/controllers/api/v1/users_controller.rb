@@ -12,6 +12,18 @@ class Api::V1::UsersController < ApplicationController
         end
     end
 
+    def profile
+        @token = encode_token(user_id: @user.id)
+        render json: { user: UserSerializer.new(@user), jwt: @token }
+    end
+
+    def index
+        byebug
+    end
+    
+    def show
+        byebug
+    end
 
     private
 
