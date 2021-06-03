@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  resources :adoptions
+
 #Comment lines 5-11 and uncomment line 16 for testing
 
   namespace :api do
