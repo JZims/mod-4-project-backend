@@ -11,10 +11,12 @@ Rails.application.routes.draw do
     end
   end
 
+  # get "/pets/orphans" to: "pets#find_unadopted"
+  
   resources :items, only:[:index, :show]
   resources :inventories
   resources :pets, only:[:index, :show, :destroy]
   resources :adoptions, only: [:index, :show, :create, :update]
-  
+ 
 end
 
