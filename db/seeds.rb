@@ -4,11 +4,11 @@ Inventory.destroy_all
 Item.destroy_all
 Pet.destroy_all
 
-User.create(username: "Patti Mayonnaise", currency: 1000, bio: "Doug Funnie's crush", password: "dougfunnie", image: "https://i.ibb.co/HYnv3s8/Screen-Shot-2021-05-29-at-3-02-36-PM.png")
-User.create(username: "Daria Morgendorffer", currency: 1000, bio: "Sarcastic nerd", password: "beavis", image: "https://i.ibb.co/3vx6Wyd/Screen-Shot-2021-05-29-at-3-14-56-PM.png")
-User.create(username: "Tommy Pickles", currency: 1000, bio: "baby", password: "chucky", image: "https://i.ibb.co/Zdnbc91/tommy.jpg
+User.create(username: "patti_mayonnaise", currency: 1000, bio: "Doug Funnie's crush", password: "dougfunnie", image: "https://i.ibb.co/HYnv3s8/Screen-Shot-2021-05-29-at-3-02-36-PM.png")
+User.create(username: "daria_morgendorffer", currency: 1000, bio: "Sarcastic nerd", password: "beavis", image: "https://i.ibb.co/3vx6Wyd/Screen-Shot-2021-05-29-at-3-14-56-PM.png")
+User.create(username: "tommy_pickles", currency: 1000, bio: "baby", password: "chucky", image: "https://i.ibb.co/Zdnbc91/tommy.jpg
 ")
-User.create(username: "Gerald Johanssen", currency: 1000, bio: "Arnold's best friend", password: "heyarnold", image: "https://i.ibb.co/58SJY2C/gerald.png")
+User.create(username: "gerald_johanssen", currency: 1000, bio: "Arnold's best friend", password: "heyarnold", image: "https://i.ibb.co/58SJY2C/gerald.png")
 
 
 
@@ -52,10 +52,10 @@ Pet.create(name: "Reptar", swag_total: 100, user_id: User.all.sample.id, image: 
 Pet.create(name: "Lickitung", swag_total: 100, user_id: User.all.sample.id, image: "https://i.ibb.co/Tgghbq0/lickitung.jpg")
 Pet.create(name: "Alpha", swag_total: 100, user_id: User.all.sample.id, image: "https://i.ibb.co/0fPPTz2/alpha.jpg") 
 
-Pet.create(name: "Mojo Jojo", swag_total: 100, user_id: nil, image: "https://i.ibb.co/MRSKprn/416p8-Xufc-KL-AC-SY355.jpg")
-Pet.create(name: "Squidward", swag_total: 100, user_id: nil, image: "https://i.ibb.co/1ZdKCnp/Squidward.png")
-Pet.create(name: "Daggett Beaver", swag_total: 100, user_id: nil, image: "https://i.ibb.co/Yfgwvtn/DAGG-large.jpg")
-Pet.create(name: "Krumm", swag_total: 100, user_id: nil, image: "https://i.ibb.co/3TXFvkK/b023322437030cc586f6d0ad358c0489.jpg")
-Pet.create(name: "Dot Warner", swag_total: 100, user_id: nil, image: "https://i.ibb.co/rcdc88L/l0fj-C6-GN-400x400.jpg")
-Pet.create(name: "Pegasus", swag_total: 100, user_id: nil, image: "https://i.ibb.co/jg236gV/download.jpg")
-Pet.create(name: "Babyface", swag_total: 100, user_id: nil, image: "https://i.ibb.co/92tPsyq/hfttqcli76z31.jpg")
+Pet.create(name: "Mojo Jojo", swag_total: 100, user_id: 1, image: "https://i.ibb.co/MRSKprn/416p8-Xufc-KL-AC-SY355.jpg")
+Pet.create(name: "Squidward", swag_total: 100, user_id: 1, image: "https://i.ibb.co/1ZdKCnp/Squidward.png")
+Pet.create(name: "Daggett Beaver", swag_total: 100, user_id: 1, image: "https://i.ibb.co/Yfgwvtn/DAGG-large.jpg")
+Pet.create(name: "Krumm", swag_total: 100, user_id: 1, image: "https://i.ibb.co/3TXFvkK/b023322437030cc586f6d0ad358c0489.jpg")
+Pet.create(name: "Dot Warner", swag_total: 100, user_id: 1, image: "https://i.ibb.co/rcdc88L/l0fj-C6-GN-400x400.jpg")
+Pet.create(name: "Pegasus", swag_total: 100, user_id: 1, image: "https://i.pinimg.com/originals/02/dc/51/02dc513d4023b1f15b499cd470238a8f.jpg")
+Pet.create(name: "Babyface", swag_total: 100, user_id: 1, image: "https://i.ibb.co/92tPsyq/hfttqcli76z31.jpg")
