@@ -3,7 +3,6 @@ class CreatePets < ActiveRecord::Migration[6.1]
     create_table :pets do |t|
       t.string :name
       t.integer :swag_total
-      t.integer :user_id
       t.string :image
 
     end

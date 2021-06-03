@@ -36,7 +36,6 @@ ActiveRecord::Schema.define(version: 2021_06_01_154853) do
   create_table "pets", force: :cascade do |t|
     t.string "name"
     t.integer "swag_total"
-    t.integer "user_id"
     t.string "image"
   end
 

@@ -1,3 +1,4 @@
 class Pet < ApplicationRecord
-    belongs_to :user
+    has_many :adoptions
+    has_one :owner
 end
