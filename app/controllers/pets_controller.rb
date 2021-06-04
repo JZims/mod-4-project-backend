@@ -15,4 +15,12 @@ class PetsController < ApplicationController
         pet.destroy
         render json: pet
     end
+
+    def find_unadopted
+        byebug
+        # @pets = Pet.all
+        # orphans = @pets.filter( |pet| pet.adoptions.length == 0 )
+        # render json: orphans
+    end
+
 end
