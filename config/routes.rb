@@ -11,13 +11,10 @@ Rails.application.routes.draw do
     end
   end
 
-<<<<<<< HEAD
   resources :items, only:[:index, :show, :create, :update]
-=======
   # get "/pets/orphans" to: "pets#find_unadopted"
   
   resources :items, only:[:index, :show]
->>>>>>> 4da5128babcbfbe8dfb8aa14dbca89f5881b1b8a
   resources :inventories
   resources :pets, only:[:index, :show, :destroy]
   resources :adoptions, only: [:index, :show, :create, :update]

@@ -61,6 +61,29 @@ Pet.create(name: "Pegasus", swag_total: 100, image: "https://i.pinimg.com/origin
 Pet.create(name: "Babyface", swag_total: 100, image: "https://i.ibb.co/92tPsyq/hfttqcli76z31.jpg")
 
 
-10.times do
-Adoption.create(user_id: User.all.sample.id, pet_id: Pet.all.sample.id)
+tommy = User.all.find_by username: "tommy_pickles"
+patti = User.all.find_by username: "patti_mayonnaise"
+gerald = User.all.find_by username: "gerald_johanssen"
+butthead = User.all.find_by username: "butthead"
+daria = User.all.find_by username: "daria_morgendorffer"
+
+
+5.times do
+Adoption.create(user_id: tommy.id, pet_id: Pet.all.sample.id)
+end
+
+5.times do
+ Adoption.create(user_id: patti.id, pet_id: Pet.all.sample.id)
+end
+
+5.times do
+Adoption.create(user_id: daria.id, pet_id: Pet.all.sample.id)
+end
+
+5.times do
+Adoption.create(user_id: gerald.id, pet_id: Pet.all.sample.id)
+ end
+
+ 5.times do
+Adoption.create(user_id: butthead.id, pet_id: Pet.all.sample.id)
 end
